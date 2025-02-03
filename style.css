@@ -14,17 +14,17 @@
 .game-container {
   font-family: Arial, sans-serif;
   text-align: center;
-  margin: 20px auto;
-  margin-top: 300px;
-  width: 800px;
-  height: 1100px;
+  margin: 10px auto;
+  margin-bottom: 100px;
+  width: 500px;
+  height: 650px;
   background-color: whitesmoke;
 
 }
 
 .color-box {
-  width: 400px;
-  height: 400px;
+  width: 150px;
+  height: 150px;
   margin: 20px auto;
   border-radius: 10px;
   display: grid;
@@ -39,15 +39,15 @@
 
 /* Score & Game Status */
 .score, .game-status {
-  margin: 20px;
-  font-size: 1.5rem;
+  margin: 10px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 /* New Game Button */
 .new-game-btn {
-  padding: 20px 30px;
-  font-size: 2rem;
+  padding: 10px 20px;
+  font-size: 20px;
   cursor: pointer;
   border-radius: 5px;
   border: 2px solid #333;

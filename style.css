@@ -1,0 +1,90 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textcont{
+  text-align: center;
+  padding-top: 20px;
+  color: #333;
+}
+
+.game-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px auto;
+  margin-top: 300px;
+  width: 800px;
+  height: 1100px;
+  background-color: whitesmoke;
+
+}
+
+.color-box {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #f0f0f0;
+  transition: background-color 0.5s;
+}
+
+/* Color Options */
+
+
+
+/* Score & Game Status */
+.score, .game-status {
+  margin: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* New Game Button */
+.new-game-btn {
+  padding: 20px 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #333;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.new-game-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+ 
+
+@media (max-width: 600px) {
+  #card {
+      width: 95%;
+      padding: 1.5rem;
+  }
+  
+  #colorBox {
+      height: 100px;
+  }
+
+  .selectors {
+      height: 70px;
+  }
+}
+
+@media (max-width: 400px) {
+  #display {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
+
+  #scoreTrack, #reset {
+      width: 100%;
+      text-align: center;
+  }
+}
